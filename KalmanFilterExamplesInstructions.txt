@@ -1,0 +1,17 @@
+Kalman Filter Examples
+I have posted several Kalman filter example documents.  Read them and consider 
+the following things:
+
+1. What if the initial state estimate is bad?  In this situation the particle
+filter has an advantage, due to a large number of particles being tracked.
+
+2. Look at examples that try different models for the same problem.  
+Choosing the model of the system can be critically important.
+
+3. The GPS/IMU paper looks at a way to detect bad data.  I'm not necessarily
+endorsing their approach, but the idea of evaluating the quality of the
+measured data can be a good idea.  Think about it.
+
+
+
+
